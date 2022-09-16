@@ -2018,7 +2018,168 @@ async function startHaruka() {
                     }
                     break;
                 }
-            } catch (_0x29e876) {
+            }
+
+//—————「 Auto VN dll 」—————//
+
+case 'sini':
+case 'yok':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Gamau.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ case 'lag':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Ngelag.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+ case ':v':
+ case 'awokawok':
+ case 'hihi':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Hihi.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+case 'pap':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Pap.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ case 'bantuin':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Buat apa.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+ case 'kenapa':
+ case 'kenapa?':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Karna lo wibu.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ case '🥰':
+ case '😘':
+ case '😍':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/Imut.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+ case 'Uwu':
+ case 'Uwuuu':
+ case 'Uwuii':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync(`./image/${commad}.mp3`)
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+ case 'I like you':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./image/I like you.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+
+case "onichan":
+if (!isBotAdmins) return
+	omkeh2 = fs.readFileSync('./onichan.mp3')
+	haruka.sendMessage(from,{audio: omkeh2, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ 
+ case 'ara':
+ if (!isBotAdmins) return
+omkeh3 = fs.readFileSync('./vn.mp3')
+haruka.sendMessage(from,{audio: omkeh3, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ case 'sad':
+ case '🥲':
+ case '😔':
+ case '🙂':
+ case '😭':
+ case '🙃':
+ case ':)':
+ case ':(':
+ case 'dalah':
+ case 'T_T':
+ const bisaa = ['sad1','sad2','sad3','sad4','segala','hanyasatu','sound10']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+ omkeh4 = fs.readFileSync(`./${gaa}.mp3`)
+haruka.sendMessage(from,{audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+nangis(from)
+ break   
+ 
+
+ case 'kontol':
+ case 'koncol':
+ case 'woi ajg':
+ case 'memek':
+ case 'asu':
+ case 'ajim':
+ case 'kontl':
+ case 'ajg':
+ case 'anj':
+ case 'babi':
+ case 'anjg':
+ case 'bangsat':
+ case 'bangst':
+ case 'bgst':
+ case 'ajing':
+ case 'bacot':
+ case 'anjing':
+ case 'bot ajg':
+ case 'bot babi':
+ if (!m.isGroup) return apasih(from)
+ if (!isBotAdmins) return
+  if (isAdmins) return araara(from)
+ const bisaaa = ['apasih','image/Gakboleh gitu']
+const gaaa = bisaaa[Math.floor(Math.random() * bisaaa.length)]
+ omkeh4 = fs.readFileSync(`./${gaaa}.mp3`)
+haruka.sendMessage(from,{audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break   
+ 
+ 
+ case 'nelson':
+ case 'nel':
+ case 'son':
+ case 'apa':
+ case 'apasih':
+ case 'idih':
+ case 'woi':
+ case 'dih':
+ case 'bot':
+ case '@𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃':
+ if (!m.isGroup) return
+ if (!isBotAdmins) return
+ omkeh5 = fs.readFileSync('./apasih.mp3')
+haruka.sendMessage(from,{audio: omkeh5, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break
+
+
+case 'sc':
+case 'script':
+omkeh5 = fs.readFileSync('./apasih.mp3')
+haruka.sendMessage(from,{audio: omkeh5, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+ break
+
+case 'sound':
+case '😎':
+case 'musik':
+case 'santuy':
+reply('𝗝𝗮𝗻𝗴𝗮𝗻 𝗟𝘂𝗽𝗮 𝗦𝗮𝗻𝘁𝘂𝘆 '),
+setTimeout( () => {
+  sound(from)
+  }, 1000),
+  setTimeout( () => {
+  velo(from)    
+  }, 1200)
+break
+ catch (_0x29e876) {
                 _0x65541f[_0x4834d1(0x33c, 0x54b, 0x2f6, 0x4a5, 0x52b, 0x430, 0x366, 0x464, 0x4f2, 0x312, 0x61a, 0x308, 0x5da, 0x5ab, 0x596)](_0x29e876);
             }
     }), _0x5906ef[_0x209d3a(0x73b, 0x5f5, 0x782, 0x85e, 0x84a, 0x7ca, 0x6cb, 0x7f7, 0x67c, 0x755, 0x672, 0x55a, 0x6da, 0x754, 0x54f) + _0x583f36(0x14c, 0x1c6, 0x181, 0x22d, 0x7d, 0xcd, 0x14f, 0x30f, 0x3a2, 0x1b8, 0x21f, 0x2fe, 0x12d, 0x2da, 0x37c)] = _0x324e3b => {
