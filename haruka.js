@@ -928,6 +928,69 @@ function _0x5983() {
     };
     return _0x5983();
 }
+//—————「 Auto Sound + Sticker 」—————//
+const araara = (hehe) => {
+omkeh4 = fs.readFileSync('./janganToxic.mp3')
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const sound = (hehe) => {
+const bisaa = ['sound1','sound2','sound4','sound5','sound6','sound7','sound8','sound9','sound11','sound12','sound13','sound14','sound15','sound16','sound17','sound18','sound19','sound20','sound21','sound22','sound23','sound24','sound25','sound26','sound27','sound28','sound29','sound30','sound31','sound32','sound33','sound34','sound35','sound36','sound37','sound38','sound39','sound40','sound41','sound42','sound43','sound44','sound45','sound46','sound47','sound48','sound49','sound50','sound51','sound52','sound53','sound54','sound55','sound56','sound57','sound58']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+omkeh4 = fs.readFileSync(`./${gaa}.mp3`)
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const rohani = (hehe) => {
+const bisaa = ['rohani']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+omkeh4 = fs.readFileSync(`./${gaa}.mp3`)
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const apasih = (hehe) => {
+const bisaa = ['apasih']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+omkeh4 = fs.readFileSync(`./${gaa}.mp3`)
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const ownerku = (hehe) => {
+const bisaa = ['Ownerku']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+omkeh4 = fs.readFileSync(`./image/${gaa}.mp3`)
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const sayangku = (hehe) => {
+omkeh4 = fs.readFileSync(`./image/Sayang.mp3`)
+haruka.sendMessage(from, {audio: omkeh4, mimetype:'audio/mp4', ptt:true }, {quoted:m}) 
+}
+const velo = (hehe) => {
+const bisaa = ['velo.mp4','velo1.mp4']
+const gaa = bisaa[Math.floor(Math.random() * bisaa.length)]
+omkeh4 = fs.readFileSync(`./${gaa}`)
+haruka.sendImageAsSticker(m.chat, omkeh4, m, { packname: global.packname, author: global.santuy })
+}
+const nangis = (hehe) => {
+omkeh4 = fs.readFileSync(`./nangis.webp`)
+haruka.sendImageAsSticker(m.chat, omkeh4, m, { packname: global.packname, author: global.santuy })
+}
+const sticAdmin = (hehe) => {
+ano = fs.readFileSync('./admin.webp')
+haruka.sendImageAsSticker(m.chat, ano, m, { packname: global.packname, author: `𝗞𝗮𝗺𝘂 𝗕𝘂𝗸𝗮𝗻 𝗮𝗱𝗺𝗶𝗻 🗿`})
+}
+const sticGroup = (hehe) => {
+ano = fs.readFileSync('./group.webp')
+haruka.sendImageAsSticker(m.chat, ano, m, { packname: global.packname, author: `𝗣𝗮𝗸𝗮𝗶 𝗜𝘁𝘂 𝗱𝗶 𝗴𝗿𝘂𝗽🗿`})
+}
+const sticBotAdmin = (hehe) => {
+ano = fs.readFileSync('./botadmin.webp')
+haruka.sendImageAsSticker(m.chat, ano, m, { packname: global.packname, author: `𝗕𝗼𝘁 𝗕𝘂𝗸𝗮𝗻 𝗮𝗱𝗺𝗶𝗻 🗿`})
+}
+const Sesat2 = (hehe) => {
+ano = fs.readFileSync('./Ini.webp')
+haruka.sendImageAsSticker(m.chat, ano, m, { packname: global.packname, author: `𝗣𝗮𝗸𝗮𝗶 𝗜𝘁𝘂 𝗱𝗶 𝗴𝗿𝘂𝗽🗿`})
+}
+const Sesat = (hehe) => {
+ano = fs.readFileSync('./Sesat.webp')
+haruka.sendImageAsSticker(m.chat, ano, m, { packname: global.packname, author: `𝗣𝗮𝗸𝗮𝗶 𝗜𝘁𝘂 𝗱𝗶 𝗴𝗿𝘂𝗽🗿`})
+}
 const {
         default: harukaConnect,
         useSingleFileAuthState,
